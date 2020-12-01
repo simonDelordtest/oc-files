@@ -15,7 +15,7 @@ metadata:
     app: oc-files
 spec:
   type: GitHub
-  pathname: https://github.com/simonDelordtest/oc-files.git
+  pathname: https://github.com/simonDelordtest/dev-cluster.git
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
