@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: git-dev-app2-listener
+spec:
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: el-git-dev-app2-listener
+    weight: 100
